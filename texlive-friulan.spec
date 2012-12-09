@@ -48,3 +48,12 @@ support of Friulan either with babel or with polyglossia.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120413-2
++ Revision: 813504
+- Update to latest release.
+- Import texlive-friulan
+- Import texlive-friulan
+
